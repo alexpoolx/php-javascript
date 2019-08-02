@@ -21,7 +21,7 @@
           <form action="index.php" method="POST">
            <div class="row">
                 <div class="col-md-6">
-                        <h3>Un CheckBox</h3>
+                        <h3>Campeones de Marvel</h3>
                         <div class="alert alert-warning alert-dismissible fade show" role="alert">
                             <strong>
                                 <?php if(count($info_1) < 5){ echo $message;}
@@ -50,7 +50,7 @@
                 <!--OTRO CHECK BOX-->
 
                 <div class="col-md-6">
-                    <h3>Un CheckBox</h3>
+                    <h3>Campeones de League of Legends</h3>
                     <div class="alert alert-warning alert-dismissible fade show" role="alert">
                         <strong>
                         <?php if(count($info_2) < 5){ echo $message;}
